@@ -4,23 +4,8 @@
   flex-direction: column;
   margin: 2px;
 
-  .weather-display_date {
+  &div {
     padding: 4px;
-  }
-
-  .weather-display_icon {
-    padding: 4px;
-  }
-
-  .weather-display_condition {
-    padding: 4px;
-  }
-
-  .weather-display_temperature {
-    padding: 4px;
-  }
-
-  .weather-display_windSpeed {
-    padding: 4px;
+    border: 1px solid black;
   }
 }

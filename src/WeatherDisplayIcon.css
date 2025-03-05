@@ -1,0 +1,31 @@
+.weather-display-icon {
+  min-height: 20px;
+  
+  &.weather-display-icon__clear {
+    background-color: yellow;
+  }
+  &.weather-display-icon__cloudy {
+    background-color: grey;
+  }
+  &.weather-display-icon__fog {
+    background-color: grey;
+  }
+  &.weather-display-icon__drizzle {
+    background-color: blue;
+  }
+  &.weather-display-icon__rain {
+    background-color: darkblue;
+  }
+  &.weather-display-icon__snow {
+    background-color: white;
+  }
+  &.weather-display-icon__rain-showers {
+    background-color: blue;
+  }
+  &.weather-display-icon__snow-showers {
+    background-color: white;
+  }
+  &.weather-display-icon__thunderstorm {
+    background-color: black;
+  }
+}

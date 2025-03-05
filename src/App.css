@@ -12,6 +12,10 @@
   color: white;
 }
 
+.app-error-msg {
+  color: red;
+}
+
 .app-body {
   background-color: lightblue;
   display: flex;

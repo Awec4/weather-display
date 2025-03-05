@@ -1,0 +1,30 @@
+export enum WMOWeatherCode {
+    CLEAR = 0,	//Clear sky
+    MOSTLY_CLEAR = 1,
+    CLOUDY = 2,
+    OVERCAST = 3,	//Mainly clear, partly cloudy, and overcast
+    FOG = 45,
+    RIME_FOG = 48,	//Fog and depositing rime fog
+    DRIZZLE_LIGHT = 51,
+    DRIZZLE_MODERATE = 53,
+    DRIZZLE_DENSE = 55,	//Drizzle: Light, moderate, and dense intensity
+    FREEZING_DRIZZLE_LIGHT = 56,
+    FREEZING_DRIZZLE_DENSE = 57,	//Freezing Drizzle: Light and dense intensity
+    RAIN_LIGHT = 61,
+    RAIN_MODERATE = 63,
+    RAIN_HEAVY = 65,	//Rain: Slight, moderate and heavy intensity
+    FREEZING_RAIN_LIGHT = 66,
+    FREEZING_RAIN_HEAVY = 67,	//Freezing Rain: Light and heavy intensity
+    SNOW_FALL_LIGHT = 71,
+    SNOW_FALL_MODERATE = 73,
+    SNOW_FALL_HEAVY = 75,	//Snow fall: Slight, moderate, and heavy intensity
+    SNOW_GRAINS = 77,	//Snow grains
+    RAIN_SHOWERS_LIGHT = 80,
+    RAIN_SHOWERS_MODERATE = 81,
+    RAIN_SHOWERS_VIOLENT = 82,	//Rain showers: Slight, moderate, and violent
+    SNOW_SHOWERS_LIGHT = 85,
+    SNOW_SHOWERS_HEAVY = 86,	//Snow showers slight and heavy
+    THUNDERSTORM = 95,	//Thunderstorm: Slight or moderate - only available in Central Europe
+    THUNDERSTORM_HAIL_LIGHT = 96,
+    THUNDERSTORM_HAIL_HEAVY = 99,	//Thunderstorm with slight and heavy hail - only available in Central Europe
+}
